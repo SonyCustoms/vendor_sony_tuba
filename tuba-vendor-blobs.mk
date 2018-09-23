@@ -1,0 +1,6 @@
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/sony/tuba/proprietary/bin,system/bin)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/sony/tuba/proprietary/etc,system/etc)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/sony/tuba/proprietary/lib,system/lib)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/sony/tuba/proprietary/lib64,system/lib64)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/sony/tuba/proprietary/framework,system/framework)
+PRODUCT_COPY_FILES += $(call find-copy-subdir-files,*,vendor/sony/tuba/proprietary/vendor,system/vendor)
