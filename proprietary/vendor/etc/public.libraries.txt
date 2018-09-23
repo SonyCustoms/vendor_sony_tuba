@@ -1,2 +1,0 @@
-libMcClient.so
-libMcRegistry.so
