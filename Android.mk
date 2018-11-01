@@ -22,16 +22,6 @@ ifeq ($(MTKPATH),)
 # Proprietary Modules go here
 
 include $(CLEAR_VARS)
-LOCAL_MODULE := YGPS
-LOCAL_MODULE_OWNER := sony
-LOCAL_SRC_FILES := app/YGPS/YGPS.apk
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := $(COMMON_ANDROID_PACKAGE_SUFFIX)
-LOCAL_MODULE_CLASS := APPS
-LOCAL_CERTIFICATE := platform
-include $(BUILD_PREBUILT)
-
-include $(CLEAR_VARS)
 LOCAL_MODULE := libaudiocustparam
 LOCAL_SRC_FILES_64 := vendor/lib64/libaudiocustparam.so
 LOCAL_SRC_FILES_32 := vendor/lib/libaudiocustparam.so
