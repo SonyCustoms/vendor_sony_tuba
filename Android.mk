@@ -50,17 +50,6 @@ LOCAL_SRC_FILES_32 := lib/libdpframework.so
 LOCAL_SRC_FILES_64 := lib64/libdpframework.so
 include $(BUILD_PREBUILT)
 
-include $(CLEAR_VARS)
-LOCAL_MODULE := libnetutils
-LOCAL_MODULE_OWNER := sony
-LOCAL_MODULE_TAGS := optional
-LOCAL_MODULE_SUFFIX := .so
-LOCAL_MODULE_CLASS := SHARED_LIBRARIES
-LOCAL_MULTILIB := both
-LOCAL_SRC_FILES_32 := lib/libnetutils.so
-LOCAL_SRC_FILES_64 := lib64/libnetutils.so
-include $(BUILD_PREBUILT)
-
 endif
 endif
 
