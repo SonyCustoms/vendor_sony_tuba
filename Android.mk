@@ -17,7 +17,6 @@
 LOCAL_PATH := $(call my-dir)
 
 ifeq ($(TARGET_DEVICE),tuba)
-ifeq ($(MTKPATH),)
 
 # Proprietary Modules go here
 
@@ -50,6 +49,5 @@ LOCAL_SRC_FILES_32 := lib/libdpframework.so
 LOCAL_SRC_FILES_64 := lib64/libdpframework.so
 include $(BUILD_PREBUILT)
 
-endif
 endif
 
