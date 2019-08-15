@@ -3,4 +3,5 @@
 <virtualSpnOverride mccmncpnn="26203Ortel D" name="Ortel D"/>
 <virtualSpnOverride mccmncpnn="23430EE" name="EE"/>
 <virtualSpnOverride mccmncpnn="23430Virgin" name="Virgin"/>
+<virtualSpnOverride mccmncpnn="23430BT" name="BT"/>
 </virtualSpnOverridesByEfPnn>
